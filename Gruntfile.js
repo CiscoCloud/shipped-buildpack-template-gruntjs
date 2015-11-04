@@ -94,6 +94,6 @@ module.exports = function(grunt) {
   grunt.registerTask('serve', ['build', 'connect:dist:keepalive']);
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'qunit', 'concat', 'uglify']);
+  grunt.registerTask('default', 'serve');
 
 };
